@@ -1,0 +1,293 @@
+.banner{
+    width: 100vw;
+    height: auto;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.mainpage{
+    width: 100vw;
+    height: auto;
+    background-color: #E3E6E9;
+    display: flex;
+}
+.image1{
+    width: 500px;
+    height: auto;
+
+}
+.image2{
+    margin-top: 5vh;
+    width: 60vw;
+    height: auto;
+
+}
+
+
+
+.mainimg{
+    width: 100%;
+    flex-shrink: 0;
+   
+}
+body{
+    margin: 0;
+}
+.navmenu{
+    width: 80%;
+    margin-top: 0;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    
+}
+.hrefs{
+    color: aliceblue;
+    align-items: center;
+    font-size: 16px;
+    display:flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+}
+.sayhi{
+    display:flex;
+    color: aliceblue;
+    align-items: center;
+    font-size: 21px;
+    text-decoration: none;
+    text-decoration-line: underline;
+text-transform: uppercase;
+}
+.bannermain{
+    margin-left: 10vw;
+    margin-top: 15vh;
+    width: 40vw;
+}
+.bannermain2{
+    margin-left: 10vw;
+    padding-top: 10vh;
+    width: 35vw;
+
+}
+.bannermain3{
+    
+    text-align: center;
+    margin: 15vh auto;
+}
+.b1p1{
+    font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 56px;
+                color: #FFFFFF;
+}
+.b1p2{
+    font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #E1E1E1;
+}
+.footer{
+    width: 100vw;
+    height: auto;
+    background-image: url("images/Frame\ 6.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.footerp{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+color: #E1E1E1;
+}
+.footerpo{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #E1E1E1;
+}
+.levb{
+    margin-top: 5vh;
+    width: 15vw;
+    display: block;
+}
+.icons img{
+    width: 3vw;
+    margin-right: 1vw;
+    
+}
+.b2p0{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F79E0E;
+}
+.b2p1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F79E0E;
+}
+.b2p2{
+    font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #979797; 
+}
+.button1{
+    width: 15vw;
+    height: 4vw;
+    margin-left: 10vw;
+    margin-top: 4vw;
+    margin-bottom: 10vh;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+border-radius: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+color: #FFFFFF;
+border: none;
+}
+.button2{
+    width: 15vw;
+    height: 4vw;
+    margin-top: 4vw;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+border-radius: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+color: #FFFFFF;
+border: none;
+margin-bottom: 10vh;
+}
+.coloryel{
+    color: #EEBD23;
+}
+.colorgray{
+    color: #404041;
+}
+.bk{
+    width: 40vw; 
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+@media screen and (max-width: 1200px) {
+    .hrefs{
+        gap: 30px;
+    }
+    .button1{
+        width: 20vw;
+        height: 7vw;
+    }
+    .button2{
+        width: 20vw;
+        height: 7vw;
+    }
+    .mainpage{
+        display: block;
+    }
+    .bannermain2{
+        width: 60vw;
+    }
+    .mainpage .bk{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .image1{
+        visibility: hidden;
+        width: 0;
+    }
+   
+    .hrefs{
+        display: block;
+    }
+    .bannermain{
+        margin-top: 10vh;
+        width: 70vw;
+    }
+    .bannermain2{
+       
+        width: 70vw;
+        
+    }
+    .button1{
+        width: 30vw;
+        height: 10vw;
+    }
+    .button2{
+        width: 30vw;
+        height: 10vw;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .image1{
+        visibility: hidden;
+        width: 0;
+    }
+    .hrefs{
+        font-size: 14px;
+    }
+    .bannermain{
+        margin-top: 10vh;
+        width: 80vw;
+    }
+    .bannermain2{
+       
+        width: 80vw;
+        
+    }
+    .button1{
+        width: 40vw;
+        height: 15vw;
+    }
+    .button2{
+        width: 40vw;
+        height: 15vw;
+    }
+    .mainpage .bk{
+        width: 80vw;
+    }
+    .navwrap{
+        background: rgba(247, 158, 14, 0.5);
+    }
+    .navmenu{
+        display:block;
+        margin-left: 5vh;
+
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .footer{
+        display: block;
+    }
+    .levb{
+        margin-left: 5vw;
+        width: 50vw;
+    }
+}
