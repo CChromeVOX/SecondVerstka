@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<script>
+function factorial(a){
+  let res=1;
+  for(let i=1; i<=a; i++){
+    res *= i;
+  }
+  return res;
+}
+function entern(){
+let n;
+n = parseInt(prompt("Введите первое число", 0));
+if(!isNaN(n)){
+  return n;
+}else{
+  alert("Неккоректно введены данные");
+    return entern();
+}}
+function enterm(){
+let m;
+m = parseInt(prompt("Введите второе число", 0));
+if(!isNaN(m)){
+  return m;
+}else{
+  alert("Неккоректно введены данные");
+    return enterm();
+}}
+function enters(){
+let s;
+s = prompt("Введите знак действия (+, -, /, *)");
+if(s=="+" || s=="-" || s=="*" || s=="/"){
+  return s;
+}else{
+  alert("Неккоректно введен знак");
+    return enters();
+}}
+n=entern();
+m=enterm();
+s=enters();
+    if(s=="+"){
+    result=n+m;
+    }else if(s=="-"){
+    result=n-m;
+    }else if(s=="*"){
+    result=n*m;
+    }else if(s=="/"){
+    result=n/m;
+    }
+    console.log(result);
+    if(m>n){
+    console.log(factorial(m));
+    }else {console.log(factorial(n));}
+ 
+
+</script>
+</html>
